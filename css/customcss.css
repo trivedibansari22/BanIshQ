@@ -36,12 +36,27 @@
             .imageshift {
     background-position: calc( -809px + calc( 100vw )) 0px !important;
     
+    }
+}
+
+/*
+@media screen and (max-width : 1270px){
+            .imageshift2 {
+    background-position: calc( -1270px + calc( 100vw )) 0px !important;
+    
+}
+*/
+@media screen and (max-width : 768px){
+            .imageshift2 {
+    background-position: calc( -520px - calc( 100vw )) 0px !important;
+    
+    }
 }
 
     }
-
-
-    }
 .eventbox {
-    height: 1100px !important;
+    height: auto !important;
+}
+.fixedh {
+    height:420px;
 }
