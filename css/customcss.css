@@ -1,0 +1,47 @@
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;  16:9 
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ContainerCss{
+/*
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+*/
+    padding-top: 0 !important;
+}
+
+.imageshift {
+    background-position: 0px 0px;
+    
+}
+@media screen and (max-width : 1270px){
+            .imageshift {
+    background-position: calc( -1270px + calc( 100vw )) 0px !important;
+    
+}
+@media screen and (max-width : 768px){
+            .imageshift {
+    background-position: calc( -809px + calc( 100vw )) 0px !important;
+    
+}
+
+    }
+
+
+    }
+.eventbox {
+    height: 1100px !important;
+}
