@@ -100,7 +100,7 @@
                                 <h1 style="padding-bottom:350px;">Bansari &amp; Riddhish</h1>
                                 <!--<h2>It's 1 year</h2>-->
                                 <div class="simply-countdown simply-countdown-one"></div>
-                                <p><a href="#" class="btn btn-default btn-sm">27th January</a></p>
+<!--                                <p><a href="#" class="btn btn-default btn-sm">27th January</a></p>-->
                             </div>
                         </div>
                     </div>
@@ -540,9 +540,12 @@
 
     // default example
     simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+//        year: d.getFullYear(),
+//        month: d.getMonth() + 1,
+//        day: d.getDate()
+        year: 2020,
+        month: 1,
+        day: 27,
     });
 
     //jQuery example
@@ -550,6 +553,7 @@
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate(),
+        
         enableUtc: false
     });
 </script>
